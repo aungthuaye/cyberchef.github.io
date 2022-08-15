@@ -4,7 +4,7 @@
     name = "cyberchef";
     version = "9.21.0";
     src = project.pkgs.fetchzip {
-      url = "https://gchq.github.io/CyberChef/CyberChef_v${version}.zip";
+      url = "https://cyberchef.github.io/CyberChef/CyberChef_v${version}.zip";
       stripRoot = false;
       sha256 = "1y4z8fmy377wzzhrf7c6amglx7cl52hzpflwa6669y8s4d16bd6g";
     };
@@ -26,7 +26,7 @@
         "The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis.";
       license = licenses.asl20;
       maintainers = { email = "nixpkgs@d6e.io"; github = "d6e"; githubId = 2476055; name = "Danielle"; };
-      homepage = "https://github.com/gchq/CyberChef";
+      homepage = "https://github.com/aungthuaye/CyberChef";
     };
   };
   ci = (import ./nix {}).ci;
